@@ -1,3 +1,4 @@
+import Button from "@/components/shared/Button";
 import Wrapper from "@/components/shared/Wrapper";
 import React from "react";
 
@@ -41,9 +42,7 @@ const ContactPage = () => {
                 className="border border-black placeholder:text-gray-500  w-full p-2 rounded-md"
               ></textarea>
             </div>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-auto block">
-              Submit
-            </button>
+            <Button label="Submit" className="mx-auto block" />
           </form>
         </div>
       </div>
