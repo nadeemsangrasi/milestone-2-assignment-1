@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Footer = (): JSX.Element => {
   return (
-    <>
-      <div className="bg-black text-gray-400  sm:px-12  mt-28 py-16 px-6 flex justify-between gap-4 flex-col md:flex-row">
+    <div className="bg-black text-gray-400  ">
+      <div className="sm:px-12  mt-28 py-16 px-6 flex justify-between gap-4 flex-col md:flex-row max-w-[1180px] mx-auto">
         <div className="space-y-4  w-full sm:w-[400px]">
           <div>
             <h1 className="text-4xl font-semibold text-white">Rich Mart</h1>
@@ -90,7 +90,7 @@ const Footer = (): JSX.Element => {
           </ul>
         </div>
       </div>
-      <div className="bg-black text-gray-400 border-t py-4 sm:px-3 md:px-5 ">
+      <div className="bg-black text-gray-400 border-t py-4 sm:px-3 md:px-5 max-w-[1180px] mx-auto">
         <div className="sm:flex items-center justify-between">
           <div className=" text-center md:text-left mb-3 ">
             <p className="m-0 text-gray-400">
@@ -108,7 +108,7 @@ const Footer = (): JSX.Element => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

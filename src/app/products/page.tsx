@@ -11,10 +11,10 @@ const ProductSection = () => {
   return (
     <Wrapper>
       <div className="pt-16">
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-center">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-center ">
           All Products
         </h1>
-        <div className="flex  my-10  flex-wrap gap-8 mx-auto">
+        <div className="flex  my-10  flex-wrap gap-8 ">
           {prouductData.map((data: IProductDataProp, index: number) => (
             <ProductCard key={index} data={data} />
           ))}
